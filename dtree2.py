@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-
+import tensorflow
 titanic=pd.read_csv('titanic_train.csv')
 
 print(titanic.head())
